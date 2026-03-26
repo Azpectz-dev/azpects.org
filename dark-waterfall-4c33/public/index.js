@@ -38,3 +38,10 @@ muteBtn.addEventListener('click', () => {
     player.muted = !player.muted;
     muteBtn.textContent = player.muted ? '🔇' : '🔊';
 });
+
+const originalTitle = document.title;
+document.addEventListener("visibilitychange", () => {
+    document.title = document.hidden ?
+        "Come back :(" :
+        originalTitle;
+})
