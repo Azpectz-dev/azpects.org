@@ -149,3 +149,15 @@ body {
 .element::-webkit-scrollbar {
     display: none;
 }
+#MUSIC\.button {
+    background: #1a1a2e;
+    border: 6px solid #1a1a2e;
+    border-radius: 23px;
+    font-weight: bolder;
+    font-family: 'MusicVibes.otf', serif;
+    font-style: italic;
+    font-size: 40px;
+    text-align: center;
+    color: cornsilk;
+    padding: 3px 6px;
+}
